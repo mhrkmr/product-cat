@@ -1,0 +1,142 @@
+[
+    {
+        "SRN": 1,
+        "product-name": "Placeholder Name 1",
+        "primary image link": "/src/products/images/1.jpg",
+        "secondary image set": [
+            "/src/products/images/1.jpg",
+            "/src/products/images/1.jpg",
+            "/src/products/images/1.jpg"
+        ],
+        "sales-price": 250,
+        "discount": 0.1,
+        "short description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "product information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "SRN": 2,
+        "product-name": "Placeholder Name 2",
+        "primary image link": "/src/products/images/2.jpg",
+        "secondary image set": [
+            "/src/products/images/2.jpg",
+            "/src/products/images/2.jpg",
+            "/src/products/images/2.jpg"
+        ],
+        "sales-price": 450,
+        "discount": 0.15,
+        "short description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "product information": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+    },
+    {
+        "SRN": 3,
+        "product-name": "Placeholder Name 3",
+        "primary image link": "/src/products/images/3.jpg",
+        "secondary image set": [
+            "/src/products/images/3.jpg",
+            "/src/products/images/3.jpg",
+            "/src/products/images/3.jpg"
+        ],
+        "sales-price": 300,
+        "discount": 0.2,
+        "short description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "product information": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    },
+    {
+        "SRN": 4,
+        "product-name": "Placeholder Name 4",
+        "primary image link": "/src/products/images/4.jpg",
+        "secondary image set": [
+            "/src/products/images/4.jpg",
+            "/src/products/images/4.jpg",
+            "/src/products/images/4.jpg"
+        ],
+        "sales-price": 600,
+        "discount": 0.05,
+        "short description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.",
+        "product information": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "SRN": 5,
+        "product-name": "Placeholder Name 5",
+        "primary image link": "/src/products/images/5.jpg",
+        "secondary image set": [
+            "/src/products/images/5.jpg",
+            "/src/products/images/5.jpg",
+            "/src/products/images/5.jpg"
+        ],
+        "sales-price": 700,
+        "discount": 0.25,
+        "short description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa.",
+        "product information": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+    },
+    {
+        "SRN": 6,
+        "product-name": "Placeholder Name 6",
+        "primary image link": "/src/products/images/6.jpg",
+        "secondary image set": [
+            "/src/products/images/6.jpg",
+            "/src/products/images/6.jpg",
+            "/src/products/images/6.jpg"
+        ],
+        "sales-price": 150,
+        "discount": 0.3,
+        "short description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "product information": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+    },
+    {
+        "SRN": 7,
+        "product-name": "Placeholder Name 7",
+        "primary image link": "/src/products/images/7.jpg",
+        "secondary image set": [
+            "/src/products/images/7.jpg",
+            "/src/products/images/7.jpg",
+            "/src/products/images/7.jpg"
+        ],
+        "sales-price": 850,
+        "discount": 0.1,
+        "short description": "Eaque ipsa quae ab illo inventore veritatis et quasi architecto.",
+        "product information": "Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+    },
+    {
+        "SRN": 8,
+        "product-name": "Placeholder Name 8",
+        "primary image link": "/src/products/images/8.jpg",
+        "secondary image set": [
+            "/src/products/images/8.jpg",
+            "/src/products/images/8.jpg",
+            "/src/products/images/8.jpg"
+        ],
+        "sales-price": 400,
+        "discount": 0.2,
+        "short description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur.",
+        "product information": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    },
+    {
+        "SRN": 9,
+        "product-name": "Placeholder Name 9",
+        "primary image link": "/src/products/images/9.jpg",
+        "secondary image set": [
+            "/src/products/images/9.jpg",
+            "/src/products/images/9.jpg",
+            "/src/products/images/9.jpg"
+       ],
+       "sales-price" : 500,
+       "discount" : 0.15,
+       "short description" : "Sed quia consequuntur magni dolores eos qui ratione voluptatem.",
+       "product information" : "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+   },
+   {
+       "SRN" : 10,
+       "product-name" : "Placeholder Name 10",
+       "primary image link" : "/src/products/images/10.jpg",
+       "secondary image set" : [
+           "/src/products/images/10.jpg", 
+           "/src/products/images/10.jpg", 
+           "/src/products/images/10.jpg"
+       ],
+       "sales-price" : 900,
+       "discount" : 0.05,
+       "short description" : "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+       "product information" : "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+   }
+]

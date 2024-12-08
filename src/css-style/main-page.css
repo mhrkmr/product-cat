@@ -1,0 +1,101 @@
+.sides{
+    display: block;
+
+    position: relative;
+
+    width: 15%;
+    height: 100%;
+
+    background-color: #808080;
+}
+
+.display {
+    display: flex;
+
+    position: relative;
+
+    width: 70%;
+    height: 100%;
+    background-color: #d0d0d0;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-title {
+    overflow: hidden;
+}
+
+.search-bar {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-text {
+    width: 70%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: 10%;
+
+    border-radius: 8px;
+    border-block-width: 0;
+    border-color: transparent;
+    padding: 0%;
+    padding-left: 3%;
+}
+
+.search-icon-div {
+    height: 100%;
+    margin-right: 10%;
+    align-content: center;
+}
+
+.search-button {
+    min-height: 1rem;
+    height: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #f9f9f9;
+    padding: 0%;
+
+}
+
+.icon-in-button {
+    height: 90%;
+    margin: 5%;
+}
+
+.product-card-display {
+    flex: 1;
+    width: 100%;
+    overflow-x: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-content: start;
+
+    border-style: dotted;
+}
+
+.product-card {
+    margin: 6%;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #f7f7f7;
+
+}
+
+.card-image {
+    width: 20vw;
+    min-width: none;
+
+    border-radius: 8px;
+}
