@@ -20,7 +20,8 @@
     width: 100%;
     min-width: 320px;
 
-    background-color: #808080;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(206, 209, 168, 1) 43%, rgba(133, 138, 63, 1) 100%);
 
     margin: 0;
     display: flex;

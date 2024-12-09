@@ -16,7 +16,8 @@
 
     width: 100%;
     height: 100%;
-    background-color: #d0d0d0;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(206, 209, 168, 1) 43%, rgba(133, 138, 63, 1) 100%);
 
     flex-direction: column;
     align-items: center;
@@ -35,27 +36,44 @@
     padding-bottom: 0.4rem;
 }
 
-.search-text {
+.search-sub-bar {
+    height: 100%;
     width: 70%;
+}
+
+.search-icon {
+    position: absolute;
+    height: 2rem;
+    min-height: 1rem;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: transparent;
+    padding: 0%;
+    margin-left: 0rem;
+}
+
+.search-text {
+    width: calc(100% - 1.9rem);
     height: 100%;
     padding: 0;
     margin: 0;
-    margin-left: 10%;
 
     border-radius: 8px;
     border-block-width: 0;
     border-color: transparent;
     padding: 0%;
-    padding-left: 3%;
+    padding-left: 1.7rem;
 }
 
 .search-icon-div {
     height: 100%;
-    margin-right: 10%;
+    margin-left: 0.2rem;
     align-content: center;
+    display: flex;
 }
 
-.search-button {
+.sort-and-filter {
     min-height: 1rem;
     height: 100%;
     aspect-ratio: 1/1;
@@ -63,7 +81,22 @@
     border-color: transparent;
     background-color: #f9f9f9;
     padding: 0%;
+}
 
+.filter-button {
+    position: relative;
+    height: 2rem;
+    min-height: 1rem;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #ffffff;
+    padding: 0%;
+    margin-left: 0rem;
+
+    top: 0;
+
+    z-index: 2;
 }
 
 .icon-in-button {
@@ -71,19 +104,101 @@
     margin: 5%;
 }
 
+.sort-and-filter {
+    height: 13rem;
+    width: auto;
+    min-width: fit-content;
+    display: none;
+    overflow: scroll;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    grid: 1.25fr 1fr 1fr 1.25fr 1fr 1fr 1fr / 1fr;
+
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    z-index: 1;
+
+    border: #1850ead0;
+    border-radius: 8px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 1.5px;
+}
+
+.is-hidden {
+    display: grid;
+}
+
+.snf-title {
+    display: block;
+    border-bottom: #606060 solid 2px;
+    border-top: #606060;
+    align-content: end;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 4%, rgba(206, 209, 168, 1) 54%, rgba(169, 173, 109, 1) 100%);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.snf-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 10%;
+    margin-bottom: 0.1rem;
+    position: relative;
+    border-block-end: #606060 solid 1px;
+}
+.snf-content:hover {
+    background-color: #dddddd;
+}
+
+.snf-text {
+    margin: 0;
+    margin-left: 0.5rem;
+}
+
+.order {
+    height: 1.7rem;
+    min-height: 1rem;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: transparent;
+    padding: 0%;
+    margin-left: 0rem;
+    margin-right: 0.5rem;
+
+    position: absolute;
+    right: 0;
+
+    display: block;
+}
+
+
+.icon-in-button.is-hidden {
+    display: none;
+}
+
+
+
 .product-card-display {
     flex: 1;
-    width: 100%;
+    width: 80%;
     overflow-x: auto;
 
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-content: start;
-
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
+
 
 .product-card {
     margin: 1%;
@@ -141,11 +256,9 @@
 .product-card:hover .card-desc {
     opacity: 0.8;
 }
-
 .product-card:hover .card-prod-name {
     opacity: 0;
 }
-
 .product-card:hover .card-prod-price {
     opacity: 1;
 }
@@ -170,7 +283,7 @@
     display: flex;
 
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     position: absolute;
 
@@ -195,3 +308,16 @@
     margin: 0;
 }
 
+
+
+@media screen and (max-width:500px) {
+    .card-image {
+        min-height: 6rem;
+        width: 80vw;
+        border-radius: 8px;
+    }
+
+    .product-card {
+        width: 80vw;
+    }
+}

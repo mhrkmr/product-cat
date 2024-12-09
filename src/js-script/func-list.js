@@ -1,18 +1,22 @@
+var prodjson;
+
 export async function searchProduct(value) {
     var prod_list_srn = await match(value);
-    console.log(prod_list_srn);
+
+    // console.log(prod_list_srn);
     return prod_list_srn;
 }
 
 async function match(value) {
-    var prodjson;
-
-    const data = await fetchJSONData("/src/products/products.json");
-    if (data) {
-        // console.log("Data fetched successfully:", data);
-        prodjson=data;
-    } else {
-        console.error("Failed to fetch data.");
+    // console.log(prodjson);
+    if(prodjson==null){
+        const data = await fetchJSONData("/src/products/products.json");
+        if (data) {
+            // console.log("Data fetched successfully:", data);
+            prodjson=data;
+        } else {
+            console.error("Failed to fetch data.");
+        }
     }
     const result = [];
 
@@ -22,7 +26,7 @@ async function match(value) {
     // Iterate through each product
     // console.log(prodjson);
     prodjson.forEach(product => {
-        const srnMatches = product.SRN.toString().includes(searchValue);
+        const srnMatches = product["SRN"].toString().includes(searchValue);
         const nameMatches = product["product-name"].toLowerCase().includes(searchValue);
         
         // If either matches, dd to result list
@@ -31,7 +35,7 @@ async function match(value) {
         }
     });
 
-    return result;
+    return result
 }
 
 export async function fetchJSONData(str) {
@@ -40,6 +44,7 @@ export async function fetchJSONData(str) {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
+        console.log("fetch products")
         return await response.json();
     } catch (error) {
         console.error("Unable to fetch data:", error);

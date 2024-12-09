@@ -1,7 +1,7 @@
 [
     {
         "SRN": 1,
-        "product-name": "Placeholder Name 1",
+        "product-name": "Record player",
         "primary image link": "/src/products/images/1.jpg",
         "secondary image set": [
             "/src/products/images/1.jpg",
@@ -11,11 +11,13 @@
         "sales-price": 250,
         "discount": 0.1,
         "short description": "Lorem ipsum dolor sit amet, conse ctetur adi piscing elit.",
-        "product information": "Lorem ipsum dolor sit amet, conse ctetur adi piscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "product information": "Lorem ipsum dolor sit amet, conse ctetur adi piscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "inventory": 15,
+        "category": "personal-stuff"
     },
     {
         "SRN": 2,
-        "product-name": "Placeholder Name 2",
+        "product-name": "Fireworks",
         "primary image link": "/src/products/images/2.jpg",
         "secondary image set": [
             "/src/products/images/2.jpg",
@@ -25,11 +27,13 @@
         "sales-price": 450,
         "discount": 0.15,
         "short description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "product information": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+        "product information": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+        "inventory": 0,
+        "category": "personal-stuff"
     },
     {
         "SRN": 3,
-        "product-name": "Placeholder Name 3",
+        "product-name": "Car",
         "primary image link": "/src/products/images/3.jpg",
         "secondary image set": [
             "/src/products/images/3.jpg",
@@ -39,11 +43,13 @@
         "sales-price": 300,
         "discount": 0.2,
         "short description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-        "product information": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        "product information": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "inventory": 32,
+        "category": "house-construction-goods"
     },
     {
         "SRN": 4,
-        "product-name": "Placeholder Name 4",
+        "product-name": "Photo frames",
         "primary image link": "/src/products/images/4.jpg",
         "secondary image set": [
             "/src/products/images/4.jpg",
@@ -53,11 +59,13 @@
         "sales-price": 600,
         "discount": 0.05,
         "short description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.",
-        "product information": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "product information": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "inventory": 7,
+        "category": "house-construction-goods"
     },
     {
         "SRN": 5,
-        "product-name": "Placeholder Name 5",
+        "product-name": "Coffee filters",
         "primary image link": "/src/products/images/5.jpg",
         "secondary image set": [
             "/src/products/images/5.jpg",
@@ -67,11 +75,13 @@
         "sales-price": 700,
         "discount": 0.25,
         "short description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa.",
-        "product information": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+        "product information": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "inventory": 2,
+        "category": "personal-stuff"
     },
     {
         "SRN": 6,
-        "product-name": "Placeholder Name 6",
+        "product-name": "Coffee beans",
         "primary image link": "/src/products/images/6.jpg",
         "secondary image set": [
             "/src/products/images/6.jpg",
@@ -81,11 +91,13 @@
         "sales-price": 150,
         "discount": 0.3,
         "short description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
-        "product information": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        "product information": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "inventory": 0,
+        "category": "house-construction-goods"
     },
     {
         "SRN": 7,
-        "product-name": "Placeholder Name 7",
+        "product-name": "Tulips",
         "primary image link": "/src/products/images/7.jpg",
         "secondary image set": [
             "/src/products/images/7.jpg",
@@ -95,11 +107,13 @@
         "sales-price": 850,
         "discount": 0.1,
         "short description": "Eaque ipsa quae ab illo inventore veritatis et quasi architecto.",
-        "product information": "Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+        "product information": "Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "inventory": 14,
+        "category": "personal-stuff"
     },
     {
         "SRN": 8,
-        "product-name": "Placeholder Name 8",
+        "product-name": "Laptop",
         "primary image link": "/src/products/images/8.jpg",
         "secondary image set": [
             "/src/products/images/8.jpg",
@@ -109,11 +123,13 @@
         "sales-price": 400,
         "discount": 0.2,
         "short description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur.",
-        "product information": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        "product information": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+        "inventory": 0,
+        "category": "personal-stuff"
     },
     {
         "SRN": 9,
-        "product-name": "Placeholder Name 9",
+        "product-name": "Pets",
         "primary image link": "/src/products/images/9.jpg",
         "secondary image set": [
             "/src/products/images/9.jpg",
@@ -123,11 +139,13 @@
        "sales-price" : 500,
        "discount" : 0.15,
        "short description" : "Sed quia conse quun tur magni dolores eos qui ratione voluptatem.",
-       "product information" : "Sed quia conse quun tur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+       "product information" : "Sed quia conse quun tur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "inventory": 12,
+        "category": "pets"
    },
    {
        "SRN" : 10,
-       "product-name" : "Placeholder Name 10",
+       "product-name" : "Diary",
        "primary image link" : "/src/products/images/10.jpg",
        "secondary image set" : [
            "/src/products/images/10.jpg", 
@@ -137,6 +155,8 @@
        "sales-price" : 900,
        "discount" : 0.05,
        "short description" : "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
-       "product information" : "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+       "product information" : "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+        "inventory": 25,
+        "category": "personal-stuff"
    }
 ]
