@@ -59,9 +59,41 @@ async function populateProductCards() {
             const newCard = document.createElement('div');
             newCard.className = 'product-card';
             newCard.id = `card-` + element.SRN;
-            newCard.innerHTML = /*html */ `
-            <img class="card-image" src=${element["primary image link"]}>
-            `
+            
+            const cardImage = document.createElement('img');
+            cardImage.className = 'card-image';
+            cardImage.src = element["primary image link"];
+            cardImage.alt = element["short description"];
+
+            const cardDesc= document.createElement('div');
+            cardDesc.className = 'card-desc';
+                const para = document.createElement('p');
+                para.className = 'text-desc-card';
+                para.textContent = element["short description"];
+            cardDesc.appendChild(para);
+
+            const cardInfo= document.createElement('div');
+            cardInfo.className = 'card-info';
+                const prodName = document.createElement('div');
+                prodName.textContent = element["product-name"];
+                prodName.className = 'card-prod-name';
+
+                const prodPrice = document.createElement('div');
+                prodPrice.className = 'card-prod-price';
+                prodPrice.innerHTML = /*html */ `                    
+                    <div class="price-show crossed">\$${element["sales-price"]}</div>
+                    <div class="price-show">\$${element["sales-price"]*(1-element["discount"])}</div>
+                    <button class="add-to-cart"><img src="/src/svg/plus.svg" class="icon-in-button"></button>
+                    `
+            cardInfo.appendChild(prodName);
+            cardInfo.appendChild(prodPrice);
+
+            newCard.appendChild(cardImage);
+            newCard.appendChild(cardInfo);
+
+            newCard.appendChild(cardDesc);
+
+
             productCardsViewer.appendChild(newCard);
 
         });

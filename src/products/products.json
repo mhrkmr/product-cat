@@ -10,8 +10,8 @@
         ],
         "sales-price": 250,
         "discount": 0.1,
-        "short description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "product information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "short description": "Lorem ipsum dolor sit amet, conse ctetur adi piscing elit.",
+        "product information": "Lorem ipsum dolor sit amet, conse ctetur adi piscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "SRN": 2,
@@ -122,8 +122,8 @@
        ],
        "sales-price" : 500,
        "discount" : 0.15,
-       "short description" : "Sed quia consequuntur magni dolores eos qui ratione voluptatem.",
-       "product information" : "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+       "short description" : "Sed quia conse quun tur magni dolores eos qui ratione voluptatem.",
+       "product information" : "Sed quia conse quun tur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
    },
    {
        "SRN" : 10,
